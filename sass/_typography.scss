@@ -1,0 +1,47 @@
+.heading-1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:italic;
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: $color-dark;
+}
+
+.heading-2{
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.heading-3{
+    text-transform: uppercase;
+    color: $color-primary;
+    font-size: 1.5rem;
+    font-weight:500;
+}
+
+.heading-5{
+    font-size: 1.5rem;
+    color: $color-grey-light-2;
+    font-weight: 100;
+    
+}
+
+.heading-4{
+    font-size: 1.7rem;
+    font-family: $family-watch;
+}
+
+.btn{
+    background-color: $color-primary-dark;
+    font-size: 1.4rem;
+    color: $color-grey-light-1;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    border: none;
+    border-radius: none;
+    align-self: flex-start;
+}
+
+.ms-margin-bottom{margin-bottom: 2rem;}
+.ml-margin-bottom{margin-bottom: 4rem;}
+.mm-margin-bottom{margin-bottom: 6rem;}

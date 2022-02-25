@@ -1,0 +1,79 @@
+.homes{
+    
+    grid-column: col-start 1 / col-end 8;
+    //grid-row: 4/5;
+    margin: 15rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 7rem;
+
+    
+}
+
+.home{
+    background-color: $color-grey-light-1;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 4rem;
+
+    &__img{
+        width: 100%;
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+
+    &__like{
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: $color-primary;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: end;
+        margin: 2rem;
+    }
+
+    &__text{
+        grid-column: 1/-1;
+        font-size: 1.6rem;
+        padding: 1rem 3rem;
+        background-color: $color-dark;
+        color: #fff;
+        font-weight: 300;
+        justify-self: center;
+        grid-row: 1/2;
+        align-self: end;
+        transform: translateY(50%);
+        
+        
+    }
+
+    &__location,
+    &__room{
+        margin-top: 4rem;
+    }
+
+    &__location,
+    &__room,
+    &__size,
+    &__price{
+        //margin: 0 2rem;
+        display: flex;
+        
+       svg{
+        width: 2rem;
+        height: 2rem;
+        fill: $color-primary;
+        margin-left: 2rem;
+        
+       }
+       
+       p{
+        margin-left: 2rem;
+        font-size: 1.4rem;
+       }
+    } 
+}
+
+.home-btn{
+    grid-column: 1/-1;
+}
